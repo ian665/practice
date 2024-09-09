@@ -1,0 +1,151 @@
+*{
+    font-family: verdana;
+  /*   border: solid 1px; */
+    position: relative;
+  }
+  
+  html, body{
+    width: 100%; height: 100%;
+    padding: 1px; margin: 1px; 
+  }
+  
+  body{
+    margin: 0px;
+    background-color: #eeeee4;
+    border-top: solid 30px #e4eee9;
+    border-bottom: solid 30px #e4eee9;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  
+  .namecard{
+  /*   border: 0px; */
+    border-radius: 20px;
+    border: solid 0.5px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 300px;
+    font-family: verdana;
+    font-weight: 10;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right:auto;
+    top: 100px;
+    padding: 20px;
+    background: #e3b3ab;
+    color: #222c2d;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+  /* overflow是指元素超出去的範圍該如何顯示   */
+  
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  
+  /* box shadow   有Ｘ偏移 Ｘ位置要偏移多少 Ｙ偏移 擴散的程度 */
+    
+    }
+  
+  /* how do i put h2 and span horizontally? */
+  
+  .namecard h2{
+    border: 0px;
+    font-family: Verdana;
+    font-weight: 10;
+    font-size: 40px;
+    margin-top: 40px; 
+    
+  }
+  
+  .namecard span{
+    font-size: 12px;
+  /*   border: 0px; */
+    color: grey;
+    padding: 4px;
+  }
+  
+  .namecard hr{
+    background-color: #f7fbfc;
+  }
+  
+  .namecard h3{
+    border: 0px;
+    margin-left: 250px;
+    font-weight: 10;
+  }
+  
+  .namecard p{
+    color: #566e72;
+  }
+  
+  .namecard hr{
+    height: 0.5px;
+    color: #bfe3ab;
+    
+  }
+  
+  .namecard h5{
+  /* give color with opacity */
+    color: rgba(0,0,0,0.4);
+    right: -150px;
+    bottom: -10px;
+  }
+  
+  .circle{
+    width:100px; height: 100px;
+    border-radius: 100%;
+    position: absolute;  
+    background-color: #abe1e3;
+  }
+  
+  .circle1{
+    right: -50px;
+    bottom: -50px;
+  }
+  
+  .circle2{
+    border: solid; 
+    border-width: 5px; 
+    border-color: #e3abdb;
+    background-color: transparent;
+    width: 100px; height: 100px;
+    bottom: -50px; 
+    left: -40px;
+    
+  }
+  
+  .circle3{
+    border: solid; 
+    border-width: 5px; 
+    border-color: #bfe3ab;
+    background-color: transparent;
+    width: 100px; height: 100px;
+    top: -50px; 
+    right: -40px;
+    
+    
+  }
+  
+  .wnamecard {
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    color: #6b898e; 
+    font-weight: 100;
+    bottom: -250px;
+  }
+  
+  .mark{
+    font-size: 200px;
+    font-weight: 100px;
+    letter-spacing: 6px;
+    color: rgba(0,0,0,0.05);
+    width:100%;
+    padding:0;
+    position: absolute;
+    text-align: center;
+    left: auto;
+    top: 80px;
+  
+    
+  }
